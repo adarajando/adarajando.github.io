@@ -8,15 +8,15 @@
     <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>Jezreel</title>
+    <title>Ministerios de Alcance Jezreel</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./Starter Template for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/custom.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -31,42 +31,59 @@
   </head>
 
   <body>
+    <header>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Jezreel</a>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Jezreel</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">¿Qué Hacemos?</a></li>
+              <li><a href="#">¿Como puedes ayudar?</a></li>
+              <li><a href="#">Contactanos</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#">¿Qué Hacemos?</a></li>
-            <li><a href="#">¿Como puedes ayudar?</a></li>
-            <li><a href="#">Contactanos</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+      </nav>
+      <div id="video-container">
+        <video src="video/ocean.mp4" preload="auto" autoplay="autoplay" type="video/mp4" loop></video>
+        <div class="contents">
+          <h1>Jezreel</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales, mi in elementum viverra, libero dolor placerat velit, quis sodales mi sem vel turpis. Nullam at enim id urna ultricies placerat quis non ligula. Integer mauris lectus, fermentum ut tempus nec, dapibus quis tellus. Suspendisse magna erat, pretium consectetur arcu sit amet, mattis sagittis ante. Phasellus fermentum euismod leo sit amet porttitor. Aliquam gravida congue dolor at tempus. Ut eu sollicitudin enim. Fusce hendrerit posuere vestibulum. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque a arcu id nunc interdum tincidunt in vitae nisl. Etiam vitae tellus rutrum, malesuada dui et, elementum dolor. Etiam et est vitae purus fringilla euismod nec sed dui. Curabitur scelerisque eget orci nec feugiat.
+          </p>
       </div>
-    </nav>
+    </header>
+
+<!--<div id="block" data-vide-bg="video/iris" data-vide-options="position: 0% 50%"></div>-->
+
 
     <div class="container">
 
+
       <!-- Sección de presentación del ministerio-->
       <section id="queHacemos">
-        <h1>¿Qué Hacemos?</h1>
-        <p class="info">La asociación civil Ministerios de Alcance Jezreel es una organización fundada con el objetivo de
+        <div class="row">
+          <div class="col-md-6">
+            <h1>¿Qué Hacemos?</h1>
+            <p class="info">La asociación civil Ministerios de Alcance Jezreel es una organización fundada con el objetivo de
 
-suplir gratuitamente las necesidades alimenticias y sembrar valores en los niños de colonias de bajos
+    suplir gratuitamente las necesidades alimenticias y sembrar valores en los niños de colonias de bajos
 
-recursos para así impulsar una generación con mejor calidad de vida.</p>
-      </section>
-
-      <section>
-
+    recursos para así impulsar una generación con mejor calidad de vida.</p>
+          </div>
+          <div class="col-md-6">
+            <video src="video/VIDEO JEZREEL.mp4" style="height:500px; width:500px;" controls></video>
+          </div>
+        </div>
       </section>
 
       <section id="comoAyudar">
@@ -113,8 +130,7 @@ recursos para así impulsar una generación con mejor calidad de vida.</p>
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./js/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/jquery.vide.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./Starter Template for Bootstrap_files/ie10-viewport-bug-workaround.js.descarga"></script>
-    <script src="./Starter Template for Bootstrap_files/fc48c8b8268e72e740.js.descarga"></scrip.t><script type="text/javascript" src="./Starter Template for Bootstrap_files/getbootstrap.com.descarga"></script></body></html>
+  </body>
+</html>
